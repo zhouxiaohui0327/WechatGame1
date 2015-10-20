@@ -58,6 +58,14 @@ p{
 .content-box .regulation{
     text-align: center;
 }
+.regulation_text{
+    margin-top: 50px;
+    height: 260px;
+    overflow: auto;
+    font-size: 30px;
+    padding: 20px;
+
+}
 .content-box .regulation img{
     width: 50%;
 }
@@ -185,6 +193,7 @@ p{
     .register{margin-top: 51px}
     .register .icon_input{margin-bottom: 12px}
     .cash_text{font-size: 27px;margin-top: 18px;}
+    .regulation_text{margin-top:42px;font-size: 27px;height: 232px}
 }
 @media screen and (min-width: 500px) and (max-width:570px){
     .content-box .progress_bar .white_text{margin-top: -67px;font-size: 15px}
@@ -198,6 +207,7 @@ p{
     .register{margin-top: 46px}
     .register .icon_input{margin-bottom: 9px}
     .cash_text{font-size: 24px;margin-top: 16px;}
+    .regulation_text{margin-top:34px;font-size: 24px;height: 204px}
 }
 @media screen and (min-width: 450px) and (max-width:500px){
     .content-box .progress_bar .white_text{margin-top: -57px;font-size: 14px}
@@ -211,6 +221,7 @@ p{
     .register{margin-top: 41px}
     .register .icon_input{margin-bottom: 6px}
     .cash_text{font-size: 21px;margin-top: 14px;}
+    .regulation_text{margin-top:26px;font-size: 21px;height: 176px}
 }
 @media screen and (min-width: 400px) and (max-width:450px){
     .content-box .progress_bar .white_text{margin-top: -50px;font-size: 12px}
@@ -224,6 +235,7 @@ p{
     .register{margin-top: 37px}
     .register .icon_input{margin-bottom: 3px}
     .cash_text{font-size: 18px;margin-top: 12px;}
+    .regulation_text{margin-top:18px;font-size: 18px;height: 148px}
 }
 @media screen and (min-width: 320px) and (max-width:400px){
     .content-box .progress_bar .white_text{margin-top: -40px;font-size: 10px}
@@ -238,6 +250,7 @@ p{
     .register .icon_input{margin-bottom: 0}
     .btn_box{margin-bottom: 40px}
     .cash_text{font-size: 15px;margin-top: 10px;}
+    .regulation_text{margin-top:10px;font-size: 15px;height: 120px}
 }
 .big_box{
     border: 7px solid #932727;
@@ -305,11 +318,20 @@ p{
     background-color: white;
     text-align: center;
     margin: 0 auto;
+    max-width: 522px;
     margin-top: -25px;
 }
 .regulation_head{
     width: 46.7%;
     margin: 0 auto;
+}
+.returnBtn_wrap{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+}
+.regulation_wrap_1{
+    height: 120px;
 }
 .return{
     display: inline-block;
@@ -319,11 +341,9 @@ p{
     line-height: 50px;
     text-decoration: none;
     color: white;
-    margin-top: 140px;
     border-radius: 10px;
     background-color: #ec6957;
 }
-
 
 
 .popup_box_text{
@@ -362,6 +382,7 @@ p{
 
 
 @media screen and (min-width: 320px){
+    .regulation_wrap_1{height: 60px}
     .popup_box{top:133px}
     .popup{height:240px;border-radius: 35px;margin-top:-15px}
     .regulation_head{width:60%}
@@ -376,6 +397,7 @@ p{
 }
 
 @media screen and (min-width: 400px){
+    .regulation_wrap_1{height: 75px}
     .popup_box{top:168px}
     .popup{height:300px;border-radius: 40px;margin-top:-20px}
     .regulation_head{width:60%}
@@ -390,6 +412,7 @@ p{
 }
 
 @media screen and (min-width: 480px){
+    .regulation_wrap_1{height: 90px}
     .popup_box{top:200px}
     .popup{height:360px;border-radius: 45px;margin-top:-25px}
     .regulation_head{width:60%}
@@ -404,6 +427,7 @@ p{
 }
 
 @media screen and (min-width: 560px){
+    .regulation_wrap_1{height: 105px}
     .popup_box{top:232px}
     .popup{height:400px;border-radius: 50px;margin-top:-30px}
     .regulation_head{width:60%}
@@ -416,6 +440,7 @@ p{
     .return{font-size: 32px;width: 206px;height: 66px;line-height:66px;}
 }
 @media screen and (min-width: 640px){
+    .regulation_wrap_1{height:120px}
     .popup_box_text{margin-top:420px}
     .popup_wrap{height:250px;border-radius: 30px;padding-top: 50px}
     .popup_wrap p{font-size: 30px;line-height: 50px}

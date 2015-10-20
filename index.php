@@ -23,10 +23,25 @@
 </head>
 <body>
 <div class="content-box ">
-    <div class="popup_box" style="display: none" id="popupBtn">
+<!--    浮沉-->
+    <div class="popup_box" style="display: block" id="popupBtn">
         <img class="regulation_head" src="images/regulation_head.png" alt=""/>
         <div class="popup">
-            <a href="javascript:returnBtn()" class="return">返回游戏</a>
+            <div class="regulation_text">
+                <p style="text-align: left">活动内容：</p>
+                <p style="text-align: left">参与规则：</p>
+                <p style="text-align: left">奖品设置：</p>
+                <p style="text-align: left">奖品设置：</p>
+                <p style="text-align: left">奖品设置：</p>
+                <p style="text-align: left">奖品设置：</p>
+                <p style="text-align: left">奖品设置：</p>
+                <p style="text-align: left">奖品设置：</p>
+                <p style="text-align: left">奖品设置：</p>
+
+            </div>
+            <div class="returnBtn_wrap">
+                <div class="regulation_wrap_1"><a href="javascript:returnBtn()" class="return">返回游戏</a></div>
+            </div>
         </div>
     </div>
 
