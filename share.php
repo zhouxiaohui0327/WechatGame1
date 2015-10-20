@@ -23,7 +23,7 @@
 <body>
 <div class="content-box ">
 <!--    浮层-->
-    <div class="popup_box_text" style="display:block"  id="popupBtn">
+    <div class="popup_box_text" style="display:none"  id="popupBtn">
         <div class="popup_wrap">
             <p>谢谢你帮XXX筹到XXX钱！</p>
             <a href="javascript:returnBtn()" class=" return_small">返回游戏</a>
@@ -94,6 +94,7 @@
 
 
 </div>
+<div id="d-mask" style="display:none"></div>
 
 <script>
 
