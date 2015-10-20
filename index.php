@@ -24,7 +24,7 @@
 <body>
 <div class="content-box ">
 <!--    浮沉-->
-    <div class="popup_box" style="display: block" id="popupBtn">
+    <div class="popup_box" style="display: none" id="popupBtn">
         <img class="regulation_head" src="images/regulation_head.png" alt=""/>
         <div class="popup">
             <div class="regulation_text">
