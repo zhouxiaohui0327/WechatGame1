@@ -22,6 +22,15 @@
 </head>
 <body>
 <div class="content-box ">
+<!--    浮层-->
+    <div class="popup_box_text" style="display:block"  id="popupBtn">
+        <div class="popup_wrap">
+            <p>谢谢你帮XXX筹到XXX钱！</p>
+            <a href="javascript:returnBtn()" class=" return_small">返回游戏</a>
+        </div>
+    </div>
+
+
     <div class="pic_box">
         <img src="images/background_head.jpg"  alt=""/>
     </div>
@@ -55,6 +64,8 @@
        <p><a href="javascript:helpBtn(<?php echo $number_h.','.$uid_h.','.$number.','.$uid; ?>)" class="helpBtn">帮TA筹款</a></p>
        <p><a href="joinBtnServer.php" class="helpBtn helpBtn_join">我也要参与</a></p>
    </div>
+
+    <div id="d-mask" style="display:none"></div>
     <script>
         function helpBtn(a,b,c,d){
             var idh = a;
@@ -69,8 +80,10 @@
                 dataType:'json',
                 success:function(result){
                     if(result.state){
-                        alert(result.data);
+
                         window.self.location="http://127.0.0.1/WechatGame1/share.php?idh="+a+"&uidh="+b+"&id="+result['number']+"&uid="+result['uid'];
+                        document.getElementById("popupBtn").style.display="block";
+                        document.getElementById("d-mask").style.display="block";
                     }else{
                         alert(result.data);
                     }
@@ -82,6 +95,12 @@
 
 </div>
 
+<script>
 
+    function returnBtn(){
+        document.getElementById("d-mask").style.display="none";
+        document.getElementById("popupBtn").style.display="none";
+    }
+</script>
 </body>
 </html>

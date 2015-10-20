@@ -23,6 +23,14 @@
 </head>
 <body>
 <div class="content-box ">
+    <div class="popup_box" style="display: none" id="popupBtn">
+        <img class="regulation_head" src="images/regulation_head.png" alt=""/>
+        <div class="popup">
+            <a href="javascript:returnBtn()" class="return">返回游戏</a>
+        </div>
+    </div>
+
+
     <div class="pic_box">
         <img src="images/background_head.jpg"  alt=""/>
     </div>
@@ -65,12 +73,7 @@
     </div>
 </div>
 <div id="d-mask" style="display:none"></div>
-<div class="popup_box" style="display: none"  id="popupBtn">
-    <img class="regulation_head" src="images/regulation_head.png" alt=""/>
-    <div class="popup">
-        <a href="javascript:returnBtn()" class="return">返回游戏</a>
-    </div>
-</div>
+
 
 
 
