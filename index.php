@@ -15,7 +15,7 @@
     <meta content="telephone=no, address=no" name="format-detection">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<!--    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>-->
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <!--    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
     <link rel="stylesheet" type="text/css" href="./css/base.css"/>
 
@@ -35,7 +35,7 @@
         <p class="white_text">参与活动，筹满100能量值可以领取100元现金券 !</p>
     </div>
     <div class="regulation">
-        <p><a href=""><img src="images/regulation.png" alt=""/></a></p>
+        <p><a href="javascript:regulation()"><img src="images/regulation.png" alt="" class="regulationBtn"/></a></p>
 
         <?php
         require_once "functions.php";
@@ -61,9 +61,28 @@
             <p><a href="joinBtnServer.php?<?php echo "id=".$number."&uid=".$uid;?>"  class="joinBtn"><img src="images/begin.png" alt=""/></a></p>
         <?php
         }
-
         ?>
     </div>
 </div>
+<div id="d-mask" style="display:none"></div>
+<div class="popup_box" style="display: none"  id="popupBtn">
+    <img class="regulation_head" src="images/regulation_head.png" alt=""/>
+    <div class="popup">
+        <a href="javascript:returnBtn()" class="return">返回游戏</a>
+    </div>
+</div>
+
+
+
+<script>
+    function regulation(){
+        document.getElementById("d-mask").style.display="block";
+        document.getElementById("popupBtn").style.display="block";
+    }
+    function returnBtn(){
+        document.getElementById("d-mask").style.display="none";
+        document.getElementById("popupBtn").style.display="none";
+    }
+</script>
 </body>
 </html>

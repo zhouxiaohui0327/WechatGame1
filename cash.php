@@ -29,7 +29,7 @@
         <p>安徽6座万达联动</p>
         <p>10.31打造年度最强促销</p>
     </div>
-    <div class="progress_bar" style>
+    <div class="progress_bar">
         <img src="images/cash.png" class="cash_img" alt=""/>
     </div>
     <p class="cash_text">领取奖品请在下方选择所在城市万达广场</p>
@@ -55,11 +55,14 @@
     <div class="btn_box" >
         <p><a href="javascript:chooseSubmit()" class="helpBtn helpBtn_yes">确定</a></p>
     </div>
+    <script>
+        function chooseSubmit(){
+            document.getElementById("choose_form").submit()
+        }
+    </script>
+
+
+
 </div>
-<script>
-    function chooseSubmit(){
-        document.getElementById("choose_form").submit()
-    }
-</script>
 </body>
 </html>
