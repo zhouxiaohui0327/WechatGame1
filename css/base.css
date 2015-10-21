@@ -572,3 +572,154 @@ p{
     .popup_wrap p{font-size: 30px;line-height: 50px}
     .return_small{font-size: 25px;line-height: 45px;height: 45px;border-radius: 10px;margin-top: 50px}
 }
+.progress_wrap{
+    width: 96%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.progress_wrap_1{
+    width: 96%;
+    margin-left: 18px;
+    margin-top: 12px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.progress_wrap_2{
+    width: 50%;
+    background-color: #E9C925;
+    height: 44px;
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.progress_wrap_2 p{
+    line-height: 40px;
+}
+@media screen and (min-width: 320px){
+    .progress_wrap_2{  height: 20px;}
+    .progress_wrap_1{margin-left: 14px;border-radius: 20px;width: 95%;}
+    .progress_wrap_2 p{line-height:20px}
+
+}
+@media screen and (min-width: 340px){
+    .progress_wrap_2{  height: 21px;}
+    .progress_wrap_1{margin-left: 14px;}
+    .progress_wrap_2 p{line-height:21px}
+
+}
+@media screen and (min-width: 360px){
+    .progress_wrap_2{  height: 22px;}
+    .progress_wrap_1{margin-left: 14px;}
+    .progress_wrap_2 p{line-height:22px}
+
+}
+@media screen and (min-width: 370px){
+    .progress_wrap_2{  height: 23px;}
+    .progress_wrap_1{margin-left: 14px;}
+   .progress_wrap_2 p{line-height:23px}
+
+
+}
+@media screen and (min-width: 390px){
+    .progress_wrap_2{  height: 24px;}
+    .progress_wrap_1{margin-left: 14px;}
+    .progress_wrap_2 p{line-height:24px}
+
+}
+@media screen and (min-width: 400px){
+    .progress_wrap_2{  height: 25px;}
+    .progress_wrap_1{margin-left: 15px;}
+    .progress_wrap_2 p{line-height:25px}
+}
+@media screen and (min-width: 420px){
+    .progress_wrap_2{  height: 26px;}
+    .progress_wrap_1{margin-left: 15px;}
+    .progress_wrap_2 p{line-height:26px}
+}
+@media screen and (min-width: 430px){
+    .progress_wrap_2{  height: 27px;}
+    .progress_wrap_1{margin-left: 16px;}
+    .progress_wrap_2 p{line-height:27px}
+}
+@media screen and (min-width: 450px){
+    .progress_wrap_2{  height: 28px;}
+    .progress_wrap_1{margin-left: 17px;}
+    .progress_wrap_2 p{line-height:28px}
+}
+@media screen and (min-width: 460px){
+    .progress_wrap_2{  height: 29px;}
+    .progress_wrap_1{margin-left: 17px;}
+    .progress_wrap_2 p{line-height:29px}
+}
+@media screen and (min-width: 470px){
+    .progress_wrap_2{  height: 30px;}
+    .progress_wrap_1{margin-left: 17px;}
+    .progress_wrap_2 p{line-height:30px}
+}
+@media screen and (min-width: 480px){
+    .progress_wrap_2{  height: 30px;}
+    .progress_wrap_1{margin-left: 17px;}
+
+}
+@media screen and (min-width: 490px){
+    .progress_wrap_2{  height: 31px;}
+    .progress_wrap_1{margin-left: 18px;}
+    .progress_wrap_2 p{line-height:31px}
+}
+@media screen and (min-width: 500px){
+    .progress_wrap_2{  height: 33px;}
+    .progress_wrap_1{margin-left: 19px;border-radius: 20px;width: 95.5%;}
+    .progress_wrap_2 p{line-height:33px}
+}
+@media screen and (min-width: 510px){
+    .progress_wrap_2{  height: 33px;}
+    .progress_wrap_1{margin-left: 20px;}
+}
+@media screen and (min-width: 520px){
+    .progress_wrap_2{  height: 34px;}
+    .progress_wrap_1{margin-left: 20px;}
+    .progress_wrap_2 p{line-height:34px}
+}
+
+@media screen and (min-width: 530px){
+    .progress_wrap_2{  height: 35px;}
+    .progress_wrap_1{margin-left: 19px;}
+    .progress_wrap_2 p{line-height:35px}
+}
+@media screen and (min-width: 540px){
+    .progress_wrap_2{  height: 36px;}
+    .progress_wrap_1{margin-left: 19px;}
+}
+@media screen and (min-width: 560px){
+    .progress_wrap_2{  height: 35px;}
+    .progress_wrap_1{margin-left: 19px;border-radius: 20px;width: 95.5%;margin-top: 13px}
+}
+@media screen and (min-width: 570px){
+    .progress_wrap_2{  height: 36px;}
+    .progress_wrap_1{margin-left: 19px;}
+    .progress_wrap_2 p{line-height:36px}
+}
+@media screen and (min-width: 580px){
+    .progress_wrap_2{  height: 37px;}
+    .progress_wrap_1{margin-left: 19px;}
+    .progress_wrap_2 p{line-height:37px}
+}
+@media screen and (min-width: 590px){
+    .progress_wrap_2{  height: 38px;}
+    .progress_wrap_1{margin-left: 19px;}
+    .progress_wrap_2 p{line-height:38px}
+}
+@media screen and (min-width: 610px){
+    .progress_wrap_2{  height: 39px;}
+    .progress_wrap_1{margin-left: 19px;}
+    .progress_wrap_2 p{line-height:39px}
+}
+@media screen and (min-width: 630px){
+    .progress_wrap_2{  height: 40px;}
+    .progress_wrap_1{margin-left: 19px;}
+}
+@media screen and (min-width: 640px){
+    .progress_wrap_2{  height: 42px;}
+    .progress_wrap_1{margin-left: 19px;width: 96%;}
+}

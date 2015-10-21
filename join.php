@@ -43,8 +43,16 @@
     <div class="character">
         <img src="./images/text_1.png" style="width: 100%" alt=""/>
     </div>
-    <div class="progress_bar">
+<!--    进度条--><!--    进度条--><!--    进度条--><!--    进度条--><!--    进度条--><!--    进度条-->
+    <div class="progress_bar" style="position: relative">
             <img src="images/jindutiao.png" alt=""/>
+        <div class="progress_wrap">
+            <div class="progress_wrap_1">
+                <div class="progress_wrap_2" >
+                    <p style="float:right">10%</p>
+                </div>
+            </div>
+        </div>
         <p class="white_text"><a href="javascript:lookBtn()" style="color:white;" id="lookBtn">看看哪些好友帮我筹了钱</a></p>
     </div>
     <div class="help_friend" id="help_friend_wrap">
