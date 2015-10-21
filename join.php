@@ -44,7 +44,7 @@
         <img src="./images/text_1.png" style="width: 100%" alt=""/>
     </div>
     <div class="progress_bar">
-        <img src="images/progress_bar.png" alt=""/>
+            <img src="images/jindutiao.png" alt=""/>
         <p class="white_text"><a href="javascript:lookBtn()" style="color:white;" id="lookBtn">看看哪些好友帮我筹了钱</a></p>
     </div>
     <div class="help_friend" id="help_friend_wrap">
