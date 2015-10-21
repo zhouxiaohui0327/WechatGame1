@@ -41,13 +41,19 @@
         <img src="images/background_head.jpg"  alt=""/>
     </div>
     <div class="character">
-        <p>安徽6座万达联动</p>
-        <p>10.31打造年度最强促销</p>
+        <img src="./images/text_1.png" style="width: 100%" alt=""/>
     </div>
     <div class="progress_bar">
         <img src="images/progress_bar.png" alt=""/>
-        <p class="white_text"><a href="" style="color:white;">看看哪些好友帮我筹了钱</a></p>
+        <p class="white_text"><a href="javascript:lookBtn()" style="color:white;" id="lookBtn">看看哪些好友帮我筹了钱</a></p>
     </div>
+    <div class="help_friend" id="help_friend_wrap">
+        <p>xxx帮你筹到了xxx元</p>
+        <p>xxx帮你筹到了xxx元</p>
+        <p>xxx帮你筹到了xxx元</p>
+        <p>xxx帮你筹到了xxx元</p>
+    </div>
+    
     <div class="regulation">
         <p><a href="javascript:shareBtn()"><img src="images/help.png" style="width: 65%" id="help" /></a></p>
         <p><a href="javascript:regulation()" class="joinBtn"><img src="images/prize.png" /></a></p>
@@ -57,6 +63,12 @@
 
 
     <script>
+        function lookBtn(){
+            document.getElementById("help_friend_wrap").style.display="block";
+            document.getElementById("lookBtn").innerHTML="参与活动，筹满100能量值可以领取100元现金券 !";
+            document.getElementById("lookBtn").style.textDecoration="none";
+        }
+
         function shareBtn(){
             document.getElementById("d-mask").style.display="block";
             document.getElementById("shareBtn").style.display="block";

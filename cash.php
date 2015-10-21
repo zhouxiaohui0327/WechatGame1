@@ -26,8 +26,7 @@
         <img src="images/background_head.jpg"  alt=""/>
     </div>
     <div class="character">
-        <p>安徽6座万达联动</p>
-        <p>10.31打造年度最强促销</p>
+        <img src="./images/text_1.png" style="width: 100%" alt=""/>
     </div>
     <div class="progress_bar">
         <img src="images/cash.png" class="cash_img" alt=""/>
@@ -41,11 +40,11 @@
             <div class="select_box">
                 <select class="place_choose" size="6" form="choose_form">
                     <option value="合肥包河万达广场">合肥包河万达广场</option>
-                    <option value="天鹅湖万达广场">天鹅湖万达广场</option>
-                    <option value="xxx万达广场">xxx万达广场</option>
-                    <option value="xxx万达广场">xxx万达广场</option>
-                    <option value="xxx万达广场">xxx万达广场</option>
-                    <option value="xxx万达广场">xxx万达广场</option>
+                    <option value="天鹅湖万达广场">合肥天鹅湖万达广场</option>
+                    <option value="xxx万达广场">芜湖万达广场</option>
+                    <option value="xxx万达广场">蚌埠万达广场</option>
+                    <option value="xxx万达广场">马鞍山万达广场</option>
+                    <option value="xxx万达广场">阜阳万达广场</option>
                 </select>
 
                 <form id="choose_form" action="http://www.baidu.com"></form>

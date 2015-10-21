@@ -26,8 +26,7 @@
         <img src="images/background_head.jpg"  alt=""/>
     </div>
     <div class="character">
-        <p>安徽6座万达联动</p>
-        <p>10.31打造年度最强促销</p>
+        <img src="./images/text_1.png" style="width: 100%" alt=""/>
     </div>
     <div class="register">
         <form id="myForm" action="http://www.baidu.com">

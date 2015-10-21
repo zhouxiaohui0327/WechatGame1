@@ -15,7 +15,6 @@
     <meta content="telephone=no, address=no" name="format-detection">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <!--    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
     <link rel="stylesheet" type="text/css" href="./css/base.css"/>
 
@@ -28,15 +27,11 @@
         <img class="regulation_head" src="images/regulation_head.png" alt=""/>
         <div class="popup">
             <div class="regulation_text">
-                <p style="text-align: left">活动内容：</p>
-                <p style="text-align: left">参与规则：</p>
-                <p style="text-align: left">奖品设置：</p>
-                <p style="text-align: left">奖品设置：</p>
-                <p style="text-align: left">奖品设置：</p>
-                <p style="text-align: left">奖品设置：</p>
-                <p style="text-align: left">奖品设置：</p>
-                <p style="text-align: left">奖品设置：</p>
-                <p style="text-align: left">奖品设置：</p>
+                <p style="text-align: left">1、10.23日-10.30日为线上筹钱时间，成功兑换到现金券的需在10.30-11.1期间达到选择用券的万达广场客服总台领取实物券。</p>
+                <p style="text-align: left">2、众筹目标值为100，每次好友筹钱金额不等，达成目标值，可领取100元餐饮现金券。先到先得，领完即止。</p>
+                <p style="text-align: left">3、活动只支持微信平台，用户完成众筹值需登记姓名、手机号码；活动期间一个手机号码，一个微信号只能参与一次，顾客凭手机号码兑换，执行公司提供后台数据。</p>
+                <p style="text-align: left">4、100元现金券，可在10.30-11.1期间使用与室内街餐饮商家，不找零，盖章有效，可与商家其他优惠同时享用</p>
+                <p style="text-align: left">5、如发现恶意作弊行为，主办单位将取消该用户的参与资格。</p>
 
             </div>
             <div class="returnBtn_wrap">
@@ -50,8 +45,7 @@
         <img src="images/background_head.jpg"  alt=""/>
     </div>
     <div class="character">
-        <p>安徽6座万达联动</p>
-        <p>10.31打造年度最强促销</p>
+        <img src="./images/text_1.png" style="width: 100%" alt=""/>
     </div>
     <div class="progress_bar">
         <img src="images/progress_bar.png" alt=""/>
