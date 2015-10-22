@@ -9,6 +9,13 @@ a:focus{
 p{
     text-align: center;
 }
+input,select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 .wrap{
     background-color: #5d5d5d;
     opacity: 0.5;
@@ -294,22 +301,19 @@ p{
 }
 .choose{
     background-color: #e2745b;
-    line-height: 55px;
-    font-size: 30px;
+    line-height: 50px;
+    font-size: 20px;
     text-align: center;
     width: 100%;
     margin: 0 auto;
     color: white;
-    /*border-top-left-radius: 10px;*/
-    /*border-top-right-radius: 10px;*/
-    border-bottom: 7px solid #eeb59a;
+    border-bottom: 5px solid #eeb59a;
 }
 .select_box{
     text-align: center;
     width: 100%;
     overflow: hidden;
-    /*border-bottom-left-radius: 10px;*/
-    /*border-bottom-right-radius: 10px;*/
+
 }
 .select_box select{
     text-align: center;
@@ -320,8 +324,9 @@ p{
 }
 .select_box select option{
     height: 45px;
-    line-height: 30px;
+    line-height: 40px;
     font-size: 30px;
+    -webkit-touch-callout:unset
 }
 #d-mask{
     background: #000;

@@ -36,15 +36,15 @@
         <div class="choose">
             <p>---请选择---</p>
         </div>
-        <div style="width: 100%;text-align: center;margin: 0 auto">
+        <div style="width: 100%;text-align: center;margin: 0 auto;background-color: #e2745b;">
             <div class="select_box">
                 <select class="place_choose" size="6" form="choose_form">
                     <option value="合肥包河万达广场">合肥包河万达广场</option>
                     <option value="天鹅湖万达广场">合肥天鹅湖万达广场</option>
-                    <option value="xxx万达广场">芜湖万达广场</option>
-                    <option value="xxx万达广场">蚌埠万达广场</option>
-                    <option value="xxx万达广场">马鞍山万达广场</option>
-                    <option value="xxx万达广场">阜阳万达广场</option>
+                    <option value="芜湖万达广场">芜湖万达广场</option>
+                    <option value="蚌埠万达广场">蚌埠万达广场</option>
+                    <option value="马鞍山万达广场">马鞍山万达广场</option>
+                    <option value="阜阳万达广场">阜阳万达广场</option>
                 </select>
 
                 <form id="choose_form" action="http://www.baidu.com"></form>
